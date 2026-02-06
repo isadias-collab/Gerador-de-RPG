@@ -1,0 +1,36 @@
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: #2e3a3b; 
+    color: #f3efe9; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #6b4f3f;
+    padding: 35px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 
+        0 0 20px rgba(0, 0, 0, 0.7),
+        inset 0 0 10px rgba(255, 200, 120, 0.2);
+    border: 2px solid #fffffe; 
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #e6c48f; 
+    letter-spacing: 2px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+#mensagem {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f5f1ea;
+}
